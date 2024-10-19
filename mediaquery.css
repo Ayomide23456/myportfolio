@@ -1,0 +1,96 @@
+@media screen and (min-width: 1023px) {
+  .hero {
+    height: 100vh;
+  }
+  .img,
+  .img2 {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .hero-text {
+    align-items: center;
+  }
+  .text {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  .img img,
+  .img2 img {
+    height: 600px;
+  }
+  .texts {
+    margin-top: 0;
+  }
+  .link {
+    display: block;
+  }
+  .profile {
+    width: 50%;
+    display: flex;
+    align-items: center;
+  }
+  .about-img {
+    width: 50%;
+  }
+  .button {
+    display: block;
+  }
+  .menu {
+    display: none;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    width: 60%;
+  }
+  .bttn{
+      width: 10%;
+
+  }
+}
+@media screen and (max-width: 767px) {
+  .nav {
+    background: rgba(144, 44, 245, 0.747);
+    position: absolute;
+    left: -20px;
+    width: 100vw;
+    height: 60vh;
+    top: -35%;
+    padding: 4em 0 0 3em;
+  }
+  ul {
+    display: block;
+    margin: 0 10px 0 0;
+    padding: 0;
+  }
+  li {
+    padding: 0.5em 0;
+  }
+  li:hover {
+    border-left: 6px solid green;
+    padding-left: 1.5em;
+  }
+  a:hover {
+    border: none;
+  }
+  .button {
+    padding: 0;
+  }
+  .hero-text {
+    text-align: center;
+  }
+  .hero,
+  .about {
+    display: flex;
+    padding: 8em 0 3em 0;
+    flex-wrap: wrap;
+  }
+  .skill-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .hero {
+    flex-wrap: wrap-reverse;
+  }
+}
